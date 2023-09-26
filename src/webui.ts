@@ -423,6 +423,10 @@ export class WebUI {
         const buffer = typeof response === "string"
           ? toCString(response)
           : response;
+
+        const lengthView = new Int32Array(Deno.UnsafePointerView.getArrayBuffer(pointerLength, 4));
+        lengthView[0] = buffer.length;
+
         return Deno.UnsafePointer.of(buffer);
       },
     );
