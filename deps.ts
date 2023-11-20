@@ -11,7 +11,7 @@ export { default as CRC32 } from "npm:crc-32@1.2.2";
 export {
   //@ts-ignore ejm serve { b64: string }
   default as webuiLinuxClangX64,
-} from "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-linux-clang-x64/webui-2.so" assert {
+} from "https://ejm.sh/github.com/7flash/deno-webui/blob/main/src/webui-linux-clang-x64/webui-2.so" assert {
   type: "json",
 };
 
@@ -19,7 +19,7 @@ export {
 export {
   //@ts-ignore ejm serve { b64: string }
   default as webuiLinuxGccAarch64,
-} from "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-linux-gcc-aarch64/webui-2.so" assert {
+} from "https://ejm.sh/github.com/7flash/deno-webui/blob/main/src/webui-linux-gcc-aarch64/webui-2.so" assert {
   type: "json",
 };
 
@@ -27,7 +27,7 @@ export {
 export {
   //@ts-ignore ejm serve { b64: string }
   default as webuiLinuxGccArm,
-} from "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-linux-gcc-arm/webui-2.so" assert {
+} from "https://ejm.sh/github.com/7flash/deno-webui/blob/main/src/webui-linux-gcc-arm/webui-2.so" assert {
   type: "json",
 };
 
@@ -35,7 +35,7 @@ export {
 export {
   //@ts-ignore ejm serve { b64: string }
   default as webuiLinuxGccX64,
-} from "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-linux-gcc-x64/webui-2.so" assert {
+} from "https://ejm.sh/github.com/7flash/deno-webui/blob/main/src/webui-linux-gcc-x64/webui-2.so" assert {
   type: "json",
 };
 
@@ -51,7 +51,7 @@ export {
 export {
   //@ts-ignore ejm serve { b64: string }
   default as webuiMacosClangX64,
-} from "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-macos-clang-x64/webui-2.dylib" assert {
+} from "https://ejm.sh/github.com/7flash/deno-webui/blob/main/src/webui-macos-clang-x64/webui-2.dylib" assert {
   type: "json",
 };
 
@@ -59,7 +59,7 @@ export {
 export {
   //@ts-ignore ejm serve { b64: string }
   default as webuiWindowsGccX64,
-} from "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-windows-gcc-x64/webui-2.dll" assert {
+} from "https://ejm.sh/github.com/7flash/deno-webui/blob/main/src/webui-windows-gcc-x64/webui-2.dll" assert {
   type: "json",
 };
 
@@ -67,6 +67,6 @@ export {
 export {
   //@ts-ignore ejm serve { b64: string }
   default as webuiWindowsMsvcX64,
-} from "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-windows-msvc-x64/webui-2.dll" assert {
+} from "https://ejm.sh/github.com/7flash/deno-webui/blob/main/src/webui-windows-msvc-x64/webui-2.dll" assert {
   type: "json",
 };
