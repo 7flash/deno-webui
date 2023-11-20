@@ -43,7 +43,7 @@ export {
 export {
   //@ts-ignore ejm serve { b64: string }
   default as webuiMacosClangArm64,
-} from "https://ejm.sh/github.com/webui-dev/deno-webui/blob/main/src/webui-macos-clang-arm64/webui-2.dylib" assert {
+} from "https://ejm.sh/github.com/7flash/deno-webui/blob/nov20/src/webui-macos-clang-arm64/webui-2.dylib" assert {
   type: "json",
 };
 
